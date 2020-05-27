@@ -1,3 +1,6 @@
+^.github$
+^renv$
+^renv\.lock$
 ^{{cookiecutter.package_name}}\.Rproj$
 ^\.Rproj\.user$
 ^docs$
