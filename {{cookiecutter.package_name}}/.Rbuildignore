@@ -1,0 +1,4 @@
+^{{cookiecutter.package_name}}\.Rproj$
+^\.Rproj\.user$
+^docs$
+^README\.md$
