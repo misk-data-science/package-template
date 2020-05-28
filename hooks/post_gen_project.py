@@ -26,7 +26,6 @@ if __name__ == "__main__":
 
     if "{{ cookiecutter.package_language }}".lower().strip() == 'python':
         remove_directory("R")
-        remove_directory(".Rproj.user")
         remove_file("DESCRIPTION")
         remove_file("{{ cookiecutter.package_name }}" + ".Rproj")
         remove_file(".Rbuildignore")
