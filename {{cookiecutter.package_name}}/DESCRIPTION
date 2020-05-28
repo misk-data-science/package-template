@@ -2,7 +2,7 @@ Package: {{ cookiecutter.package_name }}
 Title: {{ cookiecutter.package_short_description }}
 Version: {{ cookiecutter.version }}
 Authors@R:
-    person("Jane", "Doe", email = "jane@example.com", role = c("aut", "cre"))
+    person("{{ cookiecutter.first_name }}", "{{ cookiecutter.last_name }}", email = "{{ cookiecutter.email }}", role = c("aut", "cre"))
 Description: Provide a longer description of what the package does. This is the
     place to give your elevator pitch of how great this package is and how important
     it is to others.

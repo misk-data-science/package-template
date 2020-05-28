@@ -25,7 +25,7 @@ setup(
 {%- endif %}
     description="{{ cookiecutter.package_short_description }}",
     url="{{ cookiecutter.url }}",
-    author="{{ cookiecutter.full_name.replace('\"', '\\\"') }}",
+    author="{{ cookiecutter.first_name.strip() + ' ' + cookiecutter.last_name.strip() }}",
     author_email="{{ cookiecutter.email }}",
     packages=find_packages(),
     install_requires=install_requires,

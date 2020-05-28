@@ -1,5 +1,6 @@
 {
-  "full_name": "Brad Boehmke",
+  "first_name": "ex: John",
+  "last_name": "ex: Smith",
   "email": "first.last@example.com",
   "github_username": "bradleyboehmke",
   "package_language": "r or python",
