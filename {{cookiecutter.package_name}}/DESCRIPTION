@@ -1,5 +1,5 @@
 Package: {{ cookiecutter.package_name }}
-Title: {{ cookiecutter.package_short_description }}
+Title: {{ cookiecutter.package_short_description.title() }}
 Version: {{ cookiecutter.version }}
 Authors@R:
     person("{{ cookiecutter.first_name }}", "{{ cookiecutter.last_name }}", email = "{{ cookiecutter.email }}", role = c("aut", "cre"))
