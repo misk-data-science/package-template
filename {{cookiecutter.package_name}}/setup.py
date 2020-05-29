@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 """Setup, configuration, and metadata file for the {{ cookiecutter.package_name}} package."""
+from setuptools import find_packages
 from setuptools import setup
 
 
@@ -27,8 +28,14 @@ setup(
     author="{{ cookiecutter.first_name.strip() + ' ' + cookiecutter.last_name.strip() }}",
     author_email="{{ cookiecutter.email }}",
     package_dir={"": "src"},
+    packages=find_packages(where='src'),
+    python_requires='>=3.6',
     install_requires=install_requires,
     extras_require={"docs": doc_requires, "tests": test_requires, "dev": dev_requires},
     test_suite="tests",
     include_package_data=True,
+    project_urls={
+        'Source': "{{ cookiecutter.url }}",
+        'Bug Reports': "{{ cookiecutter.url }}/issues",
+    },
 )
