@@ -1,29 +1,35 @@
 # Changelog
 
+All notable changes to this project will be documented in this file.
+
 ## Version {{ cookiecutter.version }} ({% now 'local' %})
 
-### User changes
+### Added
+- List any new features/enhancements made, how it impacts the user, and reference/hyperlink relevant Github issues or pull requests.
+- Function `xxx`: allows you to do some great stuff. <Provide good summary and you can even supply examples>.
+- Method `xxx`: allows you do this other great stuff.
 
-#### Functionality
+### Changed
+- List any changes/additions to functionality, documentations, etc. and reference/hyperlink relevant Github issues or pull requests.
+- Be sure to call out any break changes that may exist in this version and how it impacts the user.
+- Function `xxx`: previously supplied output as a list but now returns as a tuple because ... (#94).
 
-* Bug fix: list a bug fix made, how it impacts the user, and reference/hyperlink the Github issue.
-* New feature: list a new feature/enhancement made, how it impacts the user, and reference/hyperlink the Github issue.
+### Fixed
+- List any bug fixes made, how it impacts the user, and reference/hyperlink relevant Github issues or pull requests.
+- Bug in `xxx`: was throwing `xxxx` error when doing <provide good summary> (#87).
+- Bug in `xxx`: was returning a integer instead of a float when <summary> (#86).
 
-#### Breaking changes
+### Deprecated
+- List any deprecated functionality that will be removed in future releases and reference/hyperlink relevant Github issues or pull requests.
+- Function `xxx`: deprecated in favor of function `xxx` (#98, @johndoe).
+- Param `xxx`: deprecated in favor of param `xxx` (#97, @janedoe).
 
-* Call out any break changes that may exist in this version and how it impacts the user.
+### Removed
+- List any previously deprecated functionality that is fully removed in this version and reference/hyperlink relevant Github issues or pull requests.
+- Function `xxx`: has been removed after being deprecated in version 1.0.0.
+- Param `xxx`: has been removed after being deprecated in version 1.0.0.
 
-#### Documentation
-
-* List any changes/additions to documentation. This may include function docstrings, new example notebooks/vignettes, changes to the package website, and/or README.
-
-### Maintainer changes
-
-#### Testing
-
-* List any changes/additions to unit tests
-* List any changes made to integration tests
-
-#### Refactor
-
-* List any refactoring done that impacts maintainers but not end-users
+### Refactored
+- List any refactoring done that impacts maintainers but not end-users and reference/hyperlink relevant Github issues or pull requests.
+- Test `xxx`: added parametrization for greater test clarity and easier expandability.
+- Function `xxx`: created to reduce duplicated internal functionality leveraged by the following methods `abc`, `def`, `ghi` (#91).
